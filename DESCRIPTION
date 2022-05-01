@@ -1,0 +1,17 @@
+Package: mannheim
+Title: Client to access the data respository of GESIS in Mannheim
+Version: 1.2.6
+Date: 2022-05-01
+Author: Moritz Marbach <moritz.marbach@tamu.edu> [aut, cre]
+Maintainer: Moritz Marbach <moritz.marbach@tamu.edu>
+Description: Retrieve data from the Gesellschaft Sozialwissenschaftlicher Infrastruktureinrichtungen (GESIS) in Mannheim.
+Depends:
+    R (>= 3.3.1)
+License: GPL-3
+URL: https://github.com/sumtxt/mannheim/
+BugReports: https://github.com/sumtxt/mannheim/issues
+Encoding: UTF-8
+Imports:
+    httr (>= 1.2.1),
+    keyring (>= 1.1.0)
+RoxygenNote: 7.1.2
