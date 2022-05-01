@@ -20,7 +20,7 @@ gesis_login <- function(){
 		stop("Login failed. No token found.")
 		print(cred)
 	}
-	return()
+	return(token)
 	}
 
 gesis_keys <- function(){
