@@ -10,7 +10,7 @@ maintained by GESIS in Mannheim.
 
 ### Installation
 
-To install the latest version from Github using:
+To install the latest version from Github use:
 
 ``` r
 remotes::install_github("sumtxt/mannheim", force=TRUE)
@@ -18,7 +18,7 @@ remotes::install_github("sumtxt/mannheim", force=TRUE)
 
 ### Usage
 
-To retrieve data, you need to use register as a user
+To retrieve data, you need to register as a user
 [here](https://login.gesis.org/realms/gesis/login-actions/registration?client_id=js-login)
 and accept the [terms and
 conditions](https://www.gesis.org/fileadmin/upload/dienstleistung/daten/umfragedaten/_bgordnung_bestellen/2018-05-25_Usage_regulations_GESIS_DAS.pdf).

@@ -20,7 +20,7 @@ The R package `mannheim` provides functions to directly retrieve data from a dat
 
 ### Installation 
 
-To install the latest version from Github using:  
+To install the latest version from Github use:  
 
 ```{r, eval = FALSE}
 remotes::install_github("sumtxt/mannheim", force=TRUE)
@@ -29,7 +29,7 @@ remotes::install_github("sumtxt/mannheim", force=TRUE)
 
 ### Usage 
 
-To retrieve data, you need to use register as a user [here](https://login.gesis.org/realms/gesis/login-actions/registration?client_id=js-login) and accept the [terms and conditions](https://www.gesis.org/fileadmin/upload/dienstleistung/daten/umfragedaten/_bgordnung_bestellen/2018-05-25_Usage_regulations_GESIS_DAS.pdf). After the registration, save your credentials using the package function `gesis_credentials`.  This package relies on the [keyring](https://github.com/r-lib/keyring) package to store and retrieve credentials. To download data use `gesis_download_data`.
+To retrieve data, you need to register as a user [here](https://login.gesis.org/realms/gesis/login-actions/registration?client_id=js-login) and accept the [terms and conditions](https://www.gesis.org/fileadmin/upload/dienstleistung/daten/umfragedaten/_bgordnung_bestellen/2018-05-25_Usage_regulations_GESIS_DAS.pdf). After the registration, save your credentials using the package function `gesis_credentials`.  This package relies on the [keyring](https://github.com/r-lib/keyring) package to store and retrieve credentials. To download data use `gesis_download_data`.
 
 
 ### Example
